@@ -1,0 +1,22 @@
+.banner {
+    text-align: center;
+    padding: 5em 16em;
+}
+
+.titulo__banner {
+    font-weight: 600;
+    color: var(--cor-secundaria);
+}
+
+.subtitulo__banner {
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--cor-fonte-principal);
+    margin: 0.8em 0;
+}
+
+.conteudo__banner {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--cor-terciaria);
+}

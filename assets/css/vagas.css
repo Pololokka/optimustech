@@ -1,0 +1,65 @@
+.vagas {
+    text-align: center;
+}
+
+.vagas__titulo {
+    background-color: var(--cor-secundaria-transparencia);
+    display: inline;
+    color: var(--cor-secundaria);
+    padding: 0.6em;
+    border-radius: 2em;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.vagas__subtitulo {
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--cor-fonte-principal);
+    margin: 1em 0;
+}
+
+.vagas__texto {
+    font-size: 20px;
+    color: var(--cor-terciaria);
+    width: 80%;
+    margin: 3em auto;
+}
+
+.vagas__conteudo--secao {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 14em;
+    padding: 2em 0;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.vagas__conteudo--container {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 2em;
+    border: 2px solid var(--cor-caixa-vaga);
+    border-radius: 16px;
+    padding: 2em;
+}
+
+.vagas__conteudo--titulo {
+    display: flex;
+    align-items: flex-start;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.vagas__conteudo--descricao {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.vagas__conteudo--horario, 
+.vagas__conteudo--salario {
+    font-weight: 500;
+    color: var(--cor-terciaria);
+    padding: 2em 2em 0 0;
+}

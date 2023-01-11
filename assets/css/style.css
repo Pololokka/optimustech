@@ -1,0 +1,27 @@
+@import url(header.css);
+@import url(banner.css);
+@import url(metricas.css);
+@import url(vagas.css);
+@import url(depoimento.css);
+@import url(footer.css);
+
+:root {
+    --branco: #FFFFFF;
+    --cor-nome: #3A404E;
+    --cor-fonte-principal: #101828;
+    --cor-secundaria: #8E2424;
+    --cor-secundaria-transparencia: #8e242411;
+    --cor-terciaria: #667085;
+    --cor-caixa-vaga: #EAECF0;
+    --cor-rodape: #F9FAFB;
+    --cor-caixa-email: #D0D5DD;
+    --cor-direitos: #98A2B3;
+    --fonte-principal: "Inter";
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}

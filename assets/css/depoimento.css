@@ -1,0 +1,37 @@
+.depoimento__container {
+    margin: 5em auto;
+    width: 90%;
+    text-align: center;
+    background-color: var(--cor-secundaria-transparencia);
+    border-radius: 15px;
+}
+
+.depoimento__titulo {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--cor-secundaria);
+    padding-top: 5em;
+}
+
+.depoimento__texto {
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--cor-fonte-principal);
+    padding: 0.5em 0;
+}
+
+.depoimento__avatar {
+    width: 5%;
+}
+
+.depoimento__nome {
+    font-weight: 500;
+    color: var(--cor-fonte-principal);
+    padding: 1em 0;
+}
+
+.depoimento__cargo {
+    font-size: 14px;
+    color: var(--cor-terciaria);
+    padding-bottom: 5em;
+}
